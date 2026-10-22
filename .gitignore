@@ -1,0 +1,8 @@
+# private or local-only files
+.obsidian/
+00_config/
+private/
+*personal*log*
+.DS_Store
+Thumbs.db
+~$*
