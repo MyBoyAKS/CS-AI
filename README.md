@@ -2,13 +2,6 @@
   <img src="assets/banner.svg" alt="Opus 7: Algorithms, Data Structures and Connectionist AI" width="100%">
 </p>
 
-<p align="center">
-  <img src="assets/badge_stage.svg" alt="Stage 1 of 3">
-  <img src="assets/badge_version.svg" alt="Content V1.0 draft">
-  <img src="assets/badge_format.svg" alt="Written in Markdown">
-  <img src="assets/badge_learners.svg" alt="For beginners">
-</p>
-
 <p align="center"><b>A beginner's path from step-by-step algorithms, to the data structures that hold information, to neural networks that learn from examples.</b></p>
 
 ---
