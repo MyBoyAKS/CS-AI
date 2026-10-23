@@ -22,8 +22,8 @@
 
 | Member | Role | GitHub |
 |---|---|---|
-| Amadeus Kenzie Solihin | Coordinator (CEO), Quality lead | [@MyBoyAKS](https://github.com/MyBoyAKS) |
-| Derren Manuel Natalis | Repository & submission lead (CIO) | [@derrenmn](https://github.com/derrenmn) |
+| Amadeus Kenzie Solihin | Repository lead (CIO), Quality lead | [@MyBoyAKS](https://github.com/MyBoyAKS) |
+| Derren Manuel Natalis | Coordinator (CEO), Repository & submission lead (CIO) | [@derrenmn](https://github.com/derrenmn) |
 | Antony Wijaya | Content lead, Quality lead | [@AntonyWijaya28](https://github.com/AntonyWijaya28) |
 | Cristo Berlino | Visual design lead, Video lead | [@CristoBerlin](https://github.com/CristoBerlin) |
 | Nicholas Chung | Content | [@mucsoop](https://github.com/mucsoop) |
