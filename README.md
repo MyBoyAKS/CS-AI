@@ -13,7 +13,7 @@
 | **Course** | Foundations of CS & AI (2026) |
 | **Team** | Opus 7 |
 | **Module** | Algorithms, Data Structures & Connectionist AI |
-| **Intended learners** | Beginners with no programming or computer science background |
+| **Intended learners** | First-year university students with no prior computer science or AI background |
 | **Deliverables** | Study Guide · PPT Slides · Video Tutorials (all built from the Markdown in this repo) |
 
 **Purpose.** This repository holds the shared learning content for our module. Every explanation, example, activity and reference is written here in Markdown first, checked, and then turned into the study guide, slides and videos. When something is corrected here, every deliverable is updated from it.
@@ -24,7 +24,7 @@
 |---|---|---|
 | Amadeus Kenzie Solihin | Coordinator (CEO), Quality lead | [@MyBoyAKS](https://github.com/MyBoyAKS) |
 | Derren Manuel Natalis | Repository & submission lead (CIO) | [@derrenmn](https://github.com/derrenmn) |
-| Antony Wijaya | Content lead, Quality lead | TBA |
+| Antony Wijaya | Content lead, Quality lead | [@AntonyWijaya28](https://github.com/AntonyWijaya28) |
 | Cristo Berlino | Visual design lead, Video lead | TBA |
 | Nicholas Chung | Content | [@mucsoop](https://github.com/mucsoop) |
 
@@ -35,6 +35,7 @@
 ├── README.md                 ← you are here
 ├── assets/                   ← images, diagrams, banner
 ├── content/                  ← the learning material (Markdown)
+│   ├── 00_module_outline.md  ← start here
 │   ├── 01_algorithms/
 │   ├── 02_data_structures/
 │   └── 03_connectionist_ai/
@@ -46,8 +47,8 @@
 
 | Part | Status |
 |---|---|
-| Repository setup and README | Drafted |
-| Module outline | Not started |
+| Repository setup and README | Done |
+| [Module outline](content/00_module_outline.md) | Drafted |
 | 01 Algorithms | Not started |
 | 02 Data structures | Not started |
 | 03 Connectionist AI | Not started |
