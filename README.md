@@ -54,6 +54,6 @@ Status labels: ✅ checked by a reviewer · 📝 drafted · 🔲 outline only
 | 01 Algorithms | ✅ [1.1 What is an algorithm](content/01_algorithms/1.1_what-is-an-algorithm.md) · ✅ [1.3 Searching](content/01_algorithms/1.3_searching.md) (fully developed topic) · 🔲 1.2, 1.4, 1.5 |
 | 02 Data structures | ✅ [2.3 Stacks and queues](content/02_data_structures/2.3_stacks-and-queues.md) · 🔲 2.1, 2.2, 2.4, 2.5 |
 | 03 Connectionist AI | ✅ [3.2 The perceptron](content/03_connectionist_ai/3.2_perceptron.md) · 🔲 3.1, 3.3 to 3.6 |
-| Project plan and task list | 📝 In progress |
+| Project plan and [task list](plan/master_task_list.md) | ✅ Done |
 
-**Next:** diagrams, then Content V1.0 submission (24 Oct 2026). Stage 2: study guide, slides and videos built from this Markdown.
+**Done:** diagrams for 1.3, 2.3 and 3.2 (in `assets/diagrams`). **Next:** Content V1.0 submission (24 Oct 2026). Stage 2: study guide, slides and videos built from this Markdown.

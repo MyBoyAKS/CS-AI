@@ -84,7 +84,7 @@ After the whole module, a beginner should be able to:
 | Section | What it covers | Planned example / activity | Owner | Status |
 |---|---|---|---|---|
 | 3.1 Connectionist vs symbolic AI | Rules written by people vs patterns learned from data | Spam filter: hand-written rules vs learned from examples | TBA | 🔲 |
-| 3.2 The perceptron | Inputs, weights, bias, weighted sum, activation | Compute a neuron that decides "go outside?" from weather inputs | Cristo | ⬜ in progress |
+| 3.2 The perceptron | Inputs, weights, bias, weighted sum, activation | Compute a neuron that decides "go outside?" from weather inputs | Cristo | ✅ checked |
 | 3.3 How networks learn | Training data, error (loss), adjusting weights, training vs inference | Adjust one weight by hand to reduce the error | TBA | 🔲 |
 | 3.4 Network architectures | Layers (input, hidden, output), feedforward; brief look at CNN, RNN | Label the layers in a diagram | TBA | 🔲 |
 | 3.5 Deep learning and applications | Many layers, image recognition, speech, translation, chatbots | Match applications to the input data they use | TBA | 🔲 |
@@ -108,8 +108,7 @@ After the whole module, a beginner should be able to:
 
 | Status | Sections |
 |---|---|
-| 📝 Drafted | 1.1, 1.3, 2.3 |
-| ⬜ In progress | 3.2 |
+| ✅ Checked by a reviewer | 1.1, 1.3, 2.3, 3.2 |
 | 🔲 Outline only | 1.2, 1.4, 1.5, 2.1, 2.2, 2.4, 2.5, 3.1, 3.3, 3.4, 3.5, 3.6 |
 
 ## Known gaps and uncertainties
