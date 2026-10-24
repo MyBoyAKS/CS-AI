@@ -20,16 +20,16 @@ Status labels: ✅ completed · 🔍 under review · 🔄 in progress · ⬜ not
 | 8 | Draft and verify 3.2 The perceptron: 2 worked cases, activity, answers | `3.2_perceptron.md` merged | Cristo | 23 Oct | ✅ | 4 |
 | 9 | Review each section: recompute every example, open every reference, record outcome | Review comments on PRs #3 to #8 | Kenzie | 23 Oct | ✅ | 5 to 8 |
 | 10 | Fix 1.1 section links and references after review | PR #6 merged | Derren | 23 Oct | ✅ | 9 |
-| 11 | Draw diagrams: binary search halving, stack vs queue, perceptron | 3 images in `assets/diagrams/` | Cristo | 24 Oct 12:00 | 🔄 | 6 to 8 |
-| 12 | Write "from Markdown to study guide, slides and video" section | Section in report and repo | Cristo; Kenzie checks | 24 Oct 12:00 | 🔄 | 6 |
-| 13 | Review one previous year's project (one strength, one weakness) | Paragraph for this plan | Antony | 24 Oct 12:00 | ⬜ | (none) |
-| 14 | Write Project Plan with master task list | This document | Kenzie (AI-assisted); all members review | 24 Oct 12:00 | 🔍 | 4 |
-| 15 | Keep Project Log and meeting summaries with evidence | `Opus7_Stage1_ProjectLog` | Kenzie (AI-assisted); all check | 24 Oct 12:00 | 🔄 | (none) |
-| 16 | Write own personal log | 5 logs | each member | 24 Oct 12:00 | 🔄 | (none) |
-| 17 | Agree contribution scores together | Contribution table | Derren leads; all | 24 Oct 16:00 | ⬜ | 15 |
+| 11 | Draw diagrams: binary search halving, stack vs queue, perceptron | 3 images in `assets/diagrams/` | Cristo | 24 Oct 12:00 | ✅ | 6 to 8 |
+| 12 | Write "from Markdown to study guide, slides and video" section | Section in report and repo | Cristo; Kenzie checks | 24 Oct 12:00 | ✅ | 6 |
+| 13 | Review one previous year's project (one strength, one weakness) | Paragraph for this plan | Antony | 24 Oct 12:00 | ✅ | (none) |
+| 14 | Write Project Plan with master task list | This document | Kenzie (AI-assisted); all members review | 24 Oct 12:00 | ✅ | 4 |
+| 15 | Keep Project Log and meeting summaries with evidence | `Opus7_Stage1_ProjectLog` | Kenzie (AI-assisted); all check | 24 Oct 12:00 | ✅ | (none) |
+| 16 | Write own personal log | 5 logs | each member | 24 Oct 12:00 | ✅ | (none) |
+| 17 | Agree contribution scores together | Contribution table | Derren leads; all | 24 Oct 16:00 | ✅ | 15 |
 | 18 | Submission report with Repository Evidence; rendered PDF | Report + content PDF | Kenzie (AI-assisted); Derren checks | 24 Oct 18:00 | 🔄 | 9, 11 |
-| 19 | Compile personal logs into one document | `Opus7_Stage1_PersonalLogs` | Derren | 24 Oct 18:00 | ⬜ | 16 |
-| 20 | Build ZIP, extract and test it, submit all four deliverables | 4 submissions on Lexue | Derren | 24 Oct 20:00 | ⬜ | 14 to 19 |
+| 19 | Compile personal logs into one document | `Opus7_Stage1_PersonalLogs` | Kenzie (compiled with Claude Code); Derren checks | 24 Oct 18:00 | 🔄 | 16 |
+| 20 | Build ZIP, extract and test it, submit all four deliverables | 4 submissions on Lexue | Derren | 24 Oct 20:00 | 🔄 | 14 to 19 |
 
 ### Stage 1b: Live Status Report (30 Oct)
 
