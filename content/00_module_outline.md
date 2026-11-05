@@ -55,13 +55,23 @@ After the whole module, a beginner should be able to:
 
 ---
 
+## How the module is organized
+
+| Level | What it is | Example |
+|---|---|---|
+| **Part** | One folder, one big question | Part 1: Algorithms (`01_algorithms/`) |
+| **Chapter** | One Markdown file, one topic | Chapter 1.3: Searching (`1.3_searching.md`) |
+| **Section** | One numbered `##` heading inside a chapter | Section 1.3.2: Linear search |
+
+---
+
 ## Topics, activities and status
 
 **Status labels:** ✅ checked (reviewed by a teammate) · 📝 drafted · 🔲 outline only · ⬜ not started
 
 ### Part 1: Algorithms
 
-| Section | What it covers | Planned example / activity | Owner | Status |
+| Chapter | What it covers | Planned example / activity | Owner | Status |
 |---|---|---|---|---|
 | 1.1 What is an algorithm? | Definition, history (al-Khwarizmi, Euclid), key properties, algorithm vs program | Find-max trace, Euclid's GCD trace, "is this an algorithm?" questions | Derren | 📝 drafted, activity being added |
 | 1.2 Representing algorithms | Natural language, pseudocode, flowcharts | Draw a flowchart for a morning routine | TBA | 🔲 |
@@ -71,7 +81,7 @@ After the whole module, a beginner should be able to:
 
 ### Part 2: Data structures
 
-| Section | What it covers | Planned example / activity | Owner | Status |
+| Chapter | What it covers | Planned example / activity | Owner | Status |
 |---|---|---|---|---|
 | 2.1 Arrays and records | Index access, fixed size, records with fields | A class list as an array of student records | TBA | 🔲 |
 | 2.2 Linked lists | Nodes and pointers, inserting without shifting | Human chain: students hold the "next" pointer | TBA | 🔲 |
@@ -81,7 +91,7 @@ After the whole module, a beginner should be able to:
 
 ### Part 3: Connectionist AI
 
-| Section | What it covers | Planned example / activity | Owner | Status |
+| Chapter | What it covers | Planned example / activity | Owner | Status |
 |---|---|---|---|---|
 | 3.1 Connectionist vs symbolic AI | Rules written by people vs patterns learned from data | Spam filter: hand-written rules vs learned from examples | TBA | 🔲 |
 | 3.2 The perceptron | Inputs, weights, bias, weighted sum, activation | Compute a neuron that decides "go outside?" from weather inputs | Cristo | ✅ checked |
@@ -106,7 +116,7 @@ After the whole module, a beginner should be able to:
 
 ## Development status (V1.0 snapshot)
 
-| Status | Sections |
+| Status | Chapters |
 |---|---|
 | ✅ Checked by a reviewer | 1.1, 1.3, 2.3, 3.2 |
 | 🔲 Outline only | 1.2, 1.4, 1.5, 2.1, 2.2, 2.4, 2.5, 3.1, 3.3, 3.4, 3.5, 3.6 |
@@ -116,8 +126,8 @@ After the whole module, a beginner should be able to:
 - **Depth of Part 3:** the course slides list deep learning architectures (CNN, RNN). We plan only a short, non-mathematical introduction for beginners. To confirm with the teacher.
 - **Big Data:** the Chap 5 slides pair Connectionist AI with Big Data. Our module title does not include Big Data, so we treat it only as context (why neural networks need lots of data). To confirm.
 - **Code:** code examples are optional extras. Learners are not expected to program.
-- **Owners "TBA":** sections not developed in V1.0 will be assigned in the Stage 2 task list.
-- **Consistent terms:** all sections use the same definition: *an algorithm is a finite, step-by-step set of clear instructions that solves a problem or completes a task.*
+- **Owners "TBA":** chapters not developed in V1.0 are assigned in the Stage 2 [task list](../plan/master_task_list.md).
+- **Consistent terms:** all chapters use the same definition: *an algorithm is a finite, step-by-step set of clear instructions that solves a problem or completes a task.*
 
 ## References
 
