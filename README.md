@@ -36,9 +36,9 @@
 ├── assets/                   ← images, diagrams, banner
 ├── content/                  ← the learning material (Markdown)
 │   ├── 00_module_outline.md  ← start here
-│   ├── 01_algorithms/
-│   ├── 02_data_structures/
-│   └── 03_connectionist_ai/
+│   ├── 01_algorithms/        ← Part 1 (each .md file is a chapter)
+│   ├── 02_data_structures/   ← Part 2
+│   └── 03_connectionist_ai/  ← Part 3
 ├── plan/                     ← project plan and task list
 └── references/               ← sources we used
 ```
@@ -56,4 +56,4 @@ Status labels: ✅ checked by a reviewer · 📝 drafted · 🔲 outline only
 | 03 Connectionist AI | ✅ [3.2 The perceptron](content/03_connectionist_ai/3.2_perceptron.md) · 🔲 3.1, 3.3 to 3.6 |
 | Project plan and [task list](plan/master_task_list.md) | ✅ Done |
 
-**Done:** diagrams for 1.3, 2.3 and 3.2 (in `assets/diagrams`). **Next:** Content V1.0 submission (24 Oct 2026). Stage 2: study guide, slides and videos built from this Markdown.
+**Organization:** parts (folders) → chapters (files) → sections (numbered `##` headings). **Next:** Stage 2 (7 Nov 2026): Content V2.0, then the study guide, test bank, slides and videos built from this Markdown.
