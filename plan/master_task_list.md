@@ -1,10 +1,10 @@
 # Master task list
 
 > Team Opus 7 · Module: Algorithms, Data Structures & Connectionist AI
-> Working copy of Section E of the Project Plan. Updated after every stage; last update 24 Oct 2026.
+> Working copy of Section E of the Project Plan. Updated after every stage; last update 6 Nov 2026.
 
 
-Status labels: ✅ completed · 🔍 under review · 🔄 in progress · ⬜ not started. Stage 1 tasks are detailed; Stage 2 and 3 tasks will be refined after feedback.
+Status labels: ✅ completed · 🔍 under review · 🔄 in progress · ⬜ not started. Revised after teacher feedback on the Stage 1 plan ("must include all the possible tasks, refer to all 3 stages"). Stage 3 briefs are not published yet, so Stage 3 rows are expected tasks and will be refined.
 
 ### Stage 1 (due 24 Oct)
 
@@ -41,28 +41,63 @@ Status labels: ✅ completed · 🔍 under review · 🔄 in progress · ⬜ not
 
 ### Stage 2 (due 7 Nov)
 
+Owners follow the split proposed on 3 Nov. Status is updated as pull requests arrive.
+
 | # | Task | Expected result | Responsible | Internal deadline | Status | Depends on |
 |---|---|---|---|---|---|---|
-| 24 | Choose mini lecture topic from the teacher's menu | Topic confirmed | Kenzie | 30 Oct | ⬜ | menu found |
-| 25 | Draft and verify 1.2, 1.4, 1.5 | 3 sections merged | Derren, Nicholas | 1 Nov | ⬜ | 4 |
-| 26 | Draft and verify 2.1, 2.2, 2.4, 2.5 | 4 sections merged | Antony, Derren | 1 Nov | ⬜ | 4 |
-| 27 | Draft and verify 3.1, 3.3 to 3.6 | 5 sections merged | Cristo, Kenzie, Nicholas | 3 Nov | ⬜ | 8 |
-| 28 | Review all new sections | Review comments | Kenzie, Antony | 3 Nov | ⬜ | 25 to 27 |
-| 29 | Test bank: T/F, MC, problem solving, with answers, tagged by LO | `test_bank.md` | Antony; all contribute | 4 Nov | ⬜ | 25 to 27 |
-| 30 | Test activities with two students outside the team | Feedback notes | Nicholas | 4 Nov | ⬜ | 25 to 27 |
-| 31 | Study guide v1 export | PDF | Derren | 5 Nov | ⬜ | 28 |
-| 32 | Slides v1 | PPT | Cristo; Kenzie | 5 Nov | ⬜ | 28 |
-| 33 | Videos 1 and 2 (searching, stacks and queues) | 2 videos | Cristo; Nicholas narrates | 6 Nov | ⬜ | 28 |
-| 34 | Mini lecture preparation and rehearsal | Rehearsed lecture | Kenzie | per class schedule | ⬜ | 24 |
+| 24 | Mini lecture: topic agreed by the team on 5 Nov, AL3 "Why can a better algorithm matter more than a faster computer?"; on 6 Nov the teacher asked for a more unique example, so the example is being changed; claim the topic on the teacher's sheet | Topic confirmed | Kenzie | 5 Nov | 🔄 | teacher's menu |
+| 25 | Mini lecture: teaching example, audience activity, slides | Lecture materials | to confirm | per class schedule | ⬜ | 24 |
+| 26 | Mini lecture: rehearse, deliver, record feedback | Delivered lecture, feedback notes | to confirm | per class schedule | ⬜ | 25 |
+| 27 | Apply Stage 1 feedback: parts, chapters, sections in the outline and README | Revised outline | Kenzie; Antony checks | 6 Nov | 🔍 | teacher feedback |
+| 28 | Write 1.2, 1.4, 1.5 | 3 chapters in PRs | Derren | 5 Nov | 🔄 | 4 |
+| 29 | Write 2.1, 2.2 | 2 chapters in PRs | Antony | 5 Nov | ✅ | 4 |
+| 30 | Write 2.4, 2.5 | 2 chapters in PRs | Nicholas | 5 Nov | 🔄 | 4 |
+| 31 | Write 3.1, 3.3, 3.4 + 3.5, 3.6 | 4 chapters in PRs | Kenzie | 5 Nov | 🔄 | 8 |
+| 32 | Revise 1.1, 1.3, 2.3, 3.2 from feedback and own review | Revised chapters | original authors | 6 Nov | ⬜ | 27 |
+| 33 | Cross-review every chapter; test selected activities as a learner | Review comments, learner notes | Derren and Nicholas (each other); Antony (Part 3); Kenzie (Antony) | 6 Nov 15:00 | 🔄 | 28 to 31 |
+| 34 | Update README, content status, task list | Current repo | Kenzie | 7 Nov | ⬜ | 33 |
+| 35 | Markdown V2 PDF: direct dump of the Markdown | Plain rendered PDF | Kenzie | 7 Nov | ⬜ | 33 |
+| 36 | Markdown V2 report: revision summary, review results, resource mapping, GitHub evidence, gaps | Report + `Opus7_Stage2_Markdown_V2.zip` | Kenzie; Derren checks | 7 Nov | ⬜ | 33, 35, 62 |
+| 37 | Study Guide: route, activities, tested platforms, curated resources, glossary | Guide (Word or PDF) | Antony; Kenzie makes PDF | 7 Nov 15:00 | ⬜ | 33 |
+| 38 | Test every platform activity from a signed-out session; add fallbacks | Tested links, screenshots | Antony | 7 Nov 12:00 | ⬜ | draft of 37 |
+| 39 | Test Bank: 20 T/F, 20 MC, 6 open, with answer key | Editable Word file | Derren (Part 1), Nicholas (Part 2), Kenzie (Part 3) | 5 Nov | ⬜ | 28 to 31 |
+| 40 | Attempt and check every Test Bank question | Check comments | Antony | 6 Nov 15:00 | ⬜ | 39 |
+| 41 | Study Guide + Test Bank package | `Opus7_Stage2_StudyGuide_TestBank_V1.zip` | Derren | 7 Nov | ⬜ | 37, 40, 59, 60 |
+| 42 | Optional supplement (quiz, notebook, game) for extra credit | Decide yes or no | team | 6 Nov | ⬜ | 37 |
+| 43 | PPT Slides with presenter notes | `Opus7_Stage2_PPT_V1` | Cristo | 7 Nov | ⬜ | 33 |
+| 44 | Another member reviews slides and rehearses one section from the notes | Review notes | to confirm | 7 Nov | ⬜ | 43 |
+| 45 | Record narration for the tutorials | Voice files | narrators chosen by Cristo | Cristo's date | ⬜ | 33, 57 |
+| 46 | Edit, caption and compress videos (MP4, 250 MB or less) | 1 to 8 MP4 files | Cristo | 7 Nov | ⬜ | 45 |
+| 47 | Someone else watches every compressed video and tries its learning check | Review notes, fixes | to confirm | 7 Nov | ⬜ | 46 |
+| 48 | Tutorial guide with scripts or outlines | `Opus7_Stage2_VideoGuide` | Cristo | 7 Nov | ⬜ | 46 |
+| 49 | Carry corrections across Markdown, guide, slides and videos | Consistent resources | original authors | 7 Nov | ⬜ | 33, 40, 44, 47 |
+| 50 | Project Log V2 with meeting summaries, AI records, contribution table | `Opus7_Stage2_ProjectLog` | Kenzie (AI-assisted); all check | 7 Nov | ⬜ | all |
+| 51 | Write own Personal Log V2, including course learning beyond our module | 5 logs | each member | 7 Nov 12:00 | ⬜ | all |
+| 52 | Compile personal logs | `Opus7_Stage2_PersonalLogs` | Derren | 7 Nov 20:00 | ⬜ | 51 |
+| 53 | Agree Stage 2 contribution scores | Contribution table | Derren leads; all | 7 Nov | ⬜ | 50 |
+| 54 | Extract each package, test it, submit | All Stage 2 submissions | Derren | 7 Nov | ⬜ | all |
+| 55 | Attend other teams' mini lectures and log one useful idea | Personal log entries | each member | per class schedule | ⬜ | (none) |
+| 56 | Agree one shared identity (name, visual style, tone, recurring characters) for guide, slides and videos | Identity notes used by all resources | to confirm | 6 Nov | ⬜ | (none) |
+| 57 | Plan the videos (number, scope, length) and test a short export before recording everything | Video plan, test export checked | Cristo | before recording | ⬜ | 33 |
+| 58 | Open the submitted PPT copy: test slideshow mode, notes, media, and a fallback for any live demo | Tested deck | Cristo | 7 Nov | ⬜ | 43 |
+| 59 | Someone who did not write it follows selected Study Guide activities as a learner | Learner notes, fixes | to confirm | 7 Nov | ⬜ | 37 |
+| 60 | Watch or inspect every recommended resource; add timestamps, viewing tasks and access notes | Curated resources in the guide | Antony | 7 Nov | ⬜ | 37 |
+| 61 | Add cross-references between slides, guide sections, videos and Test Bank question numbers | Accurate references across resources | Cristo, Antony | 7 Nov | ⬜ | 37, 39, 43, 46 |
+| 62 | Final Markdown check: references exist; images and local links work in the submitted copy | Checked source snapshot | Kenzie | 7 Nov | ⬜ | 33 |
 
 ### Stage 3 (due 28 Nov)
 
+Expected tasks: the Stage 3 briefs are not published yet. The peer review date is being confirmed with the teacher.
+
 | # | Task | Expected result | Responsible | Internal deadline | Status | Depends on |
 |---|---|---|---|---|---|---|
-| 35 | Apply teacher and peer feedback to Markdown | Revised sections | content owners | 18 Nov | ⬜ | Stage 2 feedback |
-| 36 | Update study guide, slides and videos from revised Markdown | Final versions | Derren, Cristo | 24 Nov | ⬜ | 35 |
-| 37 | Remaining videos (sorting, perceptron, learning) | 3 videos | Cristo | 24 Nov | ⬜ | 35 |
-| 38 | Final consistency check of every deliverable | Checklist completed | Kenzie, Antony | 25 Nov | ⬜ | 36, 37 |
-| 39 | Final logs and submission | Stage 3 submissions | Derren | 28 Nov | ⬜ | 38 |
-
----
+| 63 | Peer review of two other teams (1 from the matching table, 1 of our choice) using the rubrics and checklists; one Word or PDF document; post comments in each team's Lexue spot | Submitted reviews | to confirm | 15 Nov, to confirm | ⬜ | peer review brief |
+| 64 | Collect teacher and peer feedback; plan the response | Feedback table | Kenzie, Antony | 15 Nov | ⬜ | Stage 2 grades |
+| 65 | Markdown final version: apply feedback, close remaining gaps | Final chapters | content owners | 18 Nov | ⬜ | 64 |
+| 66 | Study Guide and Test Bank final version | Final guide + Test Bank | Antony | 24 Nov | ⬜ | 65 |
+| 67 | PPT Slides final version | Final deck | Cristo | 24 Nov | ⬜ | 65 |
+| 68 | Video Tutorials final version | Final MP4 files + guide | Cristo | 24 Nov | ⬜ | 65 |
+| 69 | Mini lecture follow-up, if delivery falls in Stage 3 | Delivered lecture, feedback | to confirm | per class schedule | ⬜ | 26 |
+| 70 | Final consistency check of every deliverable | Checklist completed | Kenzie, Antony | 25 Nov | ⬜ | 66 to 68 |
+| 71 | Project Log and Personal Logs for Stage 3, contribution table | Final logs | all; Derren compiles | 27 Nov | ⬜ | 70 |
+| 72 | Final package, test, submit | Stage 3 submissions | Derren | 28 Nov | ⬜ | 71 |
