@@ -2,13 +2,11 @@
 
 > **Author:** Nicholas Chung · **To be checked by:** Antony Wijaya · **Chapters covered:** 2.1 to 2.5
 
-<!-- TODO before pushing: write TF1, TF2, MC1, MC2 from Antony's 2.1 (arrays) and 2.2 (linked lists) drafts, and add their answers to the key. Delete this note when done. -->
-
 ## Part A: True / False
 
-**TF1** [2.1] TODO: one statement about arrays (from Antony's 2.1).
+**TF1** [2.1] In an array of length 5, the last element is at index 5.
 
-**TF2** [2.2] TODO: one statement about linked lists (from Antony's 2.2).
+**TF2** [2.2] When a new node is inserted into the middle of a linked list, no node that is already in the list has to move.
 
 **TF3** [2.3] In a stack, the item that was added first is the first one removed.
 
@@ -22,9 +20,17 @@
 
 ## Part B: Multiple choice
 
-**MC1** [2.1] TODO: one question about arrays (from Antony's 2.1).
+**MC1** [2.1] Choose ONE. The array `scores` from 2.1.5 has a fixed size of 6 and holds `82, 75, 91, 68, 88, _` (`_` is the empty position at index 5). You insert **70** at **index 3**, shifting correctly. What is the array after the insert?  
+A. `82, 75, 91, 70, 68, 88`  
+B. `82, 75, 70, 91, 68, 88`  
+C. `82, 75, 91, 70, 68, _`  
+D. `82, 75, 91, 68, 70, 88`
 
-**MC2** [2.2] TODO: one question about linked lists (from Antony's 2.2).
+**MC2** [2.2] Choose ONE. A linked list holds `head -> Ayu -> Budi -> Chen -> Dewi -> null`. You want to insert **Bima** after Budi, but you do the two pointer changes in the **wrong order**: first you point Budi at Bima, while Bima's pointer is still null. Now the computer walks the list from the head. Which names does it reach?  
+A. `Ayu, Budi, Bima, Chen, Dewi`  
+B. `Ayu, Budi, Bima`  
+C. `Ayu, Budi, Chen, Dewi`  
+D. `Ayu, Budi, Chen, Dewi, Bima`
 
 **MC3** [2.3] Choose ONE. Start with an empty queue. Do `enqueue("A")`, `enqueue("B")`, `dequeue()`, `enqueue("C")`. What is in the queue now, from front to rear?
 A. `A, B, C`  B. `B, C`  C. `C, B`  D. `A, C`
@@ -62,8 +68,8 @@ Metro lines (trains go both ways; each track between two stations next to each o
 ### True / False
 | Q | Answer | Explanation (if false: give the correct statement) |
 |---|---|---|
-| TF1 | TODO | |
-| TF2 | TODO | |
+| TF1 | False | The last index is always **length - 1**, so in an array of length 5 the last element is at **index 4**. The indexes are 0, 1, 2, 3, 4, and index 5 is **out of range** (2.1.2, 2.1.6). |
+| TF2 | True | Only **two pointers** change: the new node's and the one before it. The nodes already in the list stay where they are in memory (2.2.3, 2.2.4). Moving items to make room is what an **array** does. |
 | TF3 | False | A stack is LIFO: the item added **last** is removed first. "First in, first out" describes a **queue**. |
 | TF4 | False | The root is the **first** number inserted, whatever its size. In 2.4.4 the root is 40, but 10 is the smallest. |
 | TF5 | True | A leaf has no children. It does not have to be on the bottom row. |
@@ -73,8 +79,8 @@ Metro lines (trains go both ways; each track between two stations next to each o
 ### Multiple choice
 | Q | Answer | Why it is right, and why the others are wrong |
 |---|---|---|
-| MC1 | TODO | |
-| MC2 | TODO | |
+| MC1 | A | Index 5 is free. Start from the end: move 88 from index 4 to 5, then 68 from index 3 to 4 (**2 shifts**). Put 70 at index 3 (2.1.3, 2.1.5). B counts from 1, so it puts 70 at index 2. C shifts from the front: 68 is copied over 88, so 88 is lost (the error in 2.1.7 Part B). D puts 70 at index 4, after 68 instead of before it. |
+| MC2 | B | Budi now points to Bima, and Bima's pointer is null, so the walk is Ayu, Budi, Bima, then stop. Nothing points to Chen any more, so **Chen and Dewi are lost** (2.2.4 "Watch out", 2.2.6). A is what the correct order gives: point Bima at Chen **first**, then Budi at Bima. C ignores that Budi's pointer was changed. D adds Bima at the end, but a new node goes where the pointers say, not at the end. |
 | MC3 | B | After two enqueues: `A, B`. Dequeue removes the front (A): `B`. Enqueue C at the rear: `B, C`. A forgets the dequeue. C has the order reversed. D removes from the wrong end (that would be a stack). |
 | MC4 | B | 30 < 45, go left to 20. 30 > 20, go right: empty, so 30 is the right child of 20. A stops after the first comparison. D compares wrongly with 45 (30 is smaller, not bigger). C would need 30 > 45. |
 | MC5 | C | 70 > 55, go right to 80. 70 < 80, go left to 65. 70 > 65, go right: empty. 3 checks. B stops at 80 without checking 65. D counts every number (linear search). A only checks the root. |
