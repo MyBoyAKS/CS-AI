@@ -50,10 +50,11 @@ Status labels: ✅ checked by a reviewer · 📝 drafted · 🔲 outline only
 | Part | Status |
 |---|---|
 | Repository setup and README | ✅ Done |
-| [Module outline](content/00_module_outline.md) | 📝 Drafted |
-| 01 Algorithms | ✅ [1.1 What is an algorithm](content/01_algorithms/1.1_what-is-an-algorithm.md) · ✅ [1.3 Searching](content/01_algorithms/1.3_searching.md) (fully developed topic) · 🔲 1.2, 1.4, 1.5 |
-| 02 Data structures | ✅ [2.3 Stacks and queues](content/02_data_structures/2.3_stacks-and-queues.md) · 🔲 2.1, 2.2, 2.4, 2.5 |
-| 03 Connectionist AI | ✅ [3.2 The perceptron](content/03_connectionist_ai/3.2_perceptron.md) · 🔲 3.1, 3.3 to 3.6 |
-| Project plan and [task list](plan/master_task_list.md) | ✅ Done |
+| [Module outline](content/00_module_outline.md) | ✅ Updated to parts, chapters and sections (3.5 merged into 3.4) |
+| 01 Algorithms | ✅ [1.1](content/01_algorithms/1.1_what-is-an-algorithm.md) · ✅ [1.2](content/01_algorithms/1.2_representing-algorithms.md) · ✅ [1.3](content/01_algorithms/1.3_searching.md) · ✅ [1.4](content/01_algorithms/1.4_sorting.md) · ✅ [1.5](content/01_algorithms/1.5_iteration-vs-recursion.md) |
+| 02 Data structures | ✅ [2.1](content/02_data_structures/2.1_arrays-and-records.md) · ✅ [2.2](content/02_data_structures/2.2_linked-lists.md) · ✅ [2.3](content/02_data_structures/2.3_stacks-and-queues.md) · ✅ [2.4](content/02_data_structures/2.4_trees-and-binary-trees.md) · ✅ [2.5](content/02_data_structures/2.5_graphs.md) |
+| 03 Connectionist AI | ✅ [3.1](content/03_connectionist_ai/3.1_connectionist-vs-symbolic-ai.md) · ✅ [3.2](content/03_connectionist_ai/3.2_perceptron.md) · ✅ [3.3](content/03_connectionist_ai/3.3_how-networks-learn.md) · ✅ [3.4](content/03_connectionist_ai/3.4_architectures-and-deep-learning.md) (includes 3.5) · ✅ [3.6](content/03_connectionist_ai/3.6_ethics-and-challenges.md) |
+| [Test Bank](test_bank/) | ✅ Part 1, Part 2, Part 3: 21 true/false, 21 multiple choice, 6 open |
+| Project plan and [task list](plan/master_task_list.md) | ✅ Updated 7 Nov 2026 |
 
-**Organization:** parts (folders) → chapters (files) → sections (numbered `##` headings). **Next:** Stage 2 (7 Nov 2026): Content V2.0, then the study guide, test bank, slides and videos built from this Markdown.
+**Organization:** parts (folders) → chapters (files) → sections (numbered `##` headings). **Now:** Content V2.0 is complete (Stage 2, 7 Nov 2026). The Study Guide, Test Bank, slides and videos are built from it. **Next:** Stage 3 (28 Nov 2026): final versions after feedback.
