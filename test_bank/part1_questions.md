@@ -1,6 +1,6 @@
 # Test Bank: Part 1 questions
 
-> **Author:** Derren Manuel Natalis · **Checked by:** TBA · **Sections covered:** 1.1 to 1.5
+> **Author:** Derren Manuel Natalis · **Checked by:** Kenzie, with Claude · **Chapters covered:** 1.1 to 1.5
 
 ## Part A: True / False
 
