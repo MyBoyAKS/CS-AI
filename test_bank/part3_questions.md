@@ -34,7 +34,7 @@ A. Training 100%, test 60%  B. Training 97%, test 71%  C. Training 88%, test 86%
 A. 12  B. 32  C. 41  D. 48
 
 **MC6** [3.4] Choose ALL that apply. Which statements are true?
-A. CNNs use small filters that slide across an image.  B. RNNs read a sequence one item at a time and carry a memory forward.  C. Most modern chatbots are built on transformers, which use attention.  D. In a feedforward network, values travel backwards from the output during inference.
+A. CNNs use small filters that slide across an image.  B. RNNs read a sequence one item at a time and carry a memory forward.  C. Chatbots such as ChatGPT are built on transformers, which use attention.  D. In a feedforward network, values travel backwards from the output during inference.
 
 ## Part C: Open-ended
 
