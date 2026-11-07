@@ -1,6 +1,6 @@
 # Test Bank: Part 3 questions
 
-> **Author:** Amadeus Kenzie Solihin (first draft by Claude) · **To be checked by:** Antony Wijaya · **Chapters covered:** 3.1 to 3.6 (3.5 is merged into 3.4)
+> **Author:** Amadeus Kenzie Solihin (first draft by Claude) · **Checked by:** Antony Wijaya · **Chapters covered:** 3.1 to 3.6 (3.5 is merged into 3.4)
 
 ## Part A: True / False
 
