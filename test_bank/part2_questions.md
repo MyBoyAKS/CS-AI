@@ -1,6 +1,6 @@
 # Test Bank: Part 2 questions
 
-> **Author:** Nicholas Chung · **To be checked by:** Antony Wijaya · **Chapters covered:** 2.1 to 2.5
+> **Author:** Nicholas Chung · **Checked by:** Derren Manuel Natalis · **Chapters covered:** 2.1 to 2.5
 
 ## Part A: True / False
 
@@ -42,7 +42,7 @@ A. Left child of 45  B. Right child of 20  C. Left child of 60  D. Right child o
 A. 1  B. 2  C. 3  D. 5
 
 **MC6** [2.5] Choose ALL that apply. Look at the graph in 2.5.2 (edges A-B, A-C, B-D, C-D, C-E, D-F, E-F). Which statements are true?
-A. The graph has 7 edges.  B. A and F are neighbours.  C. The graph contains a loop (a cycle: a route that comes back to where it started without using any edge twice).  D. The graph is a tree.
+A. The graph has 7 edges.  B. A and F are neighbours.  C. The graph contains a cycle (a route that comes back to where it started without using any edge twice).  D. The graph is a tree.
 
 **MC7** [2.5] Choose ONE. In the metro activity in 2.5.7, BFS starts at School. Which stations are exactly **2 stops** away from School?
 Metro lines (trains go both ways; each track between two stations next to each other on a line is one stop): Red: School, Market, Park, Library, Zoo. Blue: School, Hospital, Bank. Green: Market, Theatre, Bank, Zoo.
@@ -84,7 +84,7 @@ Metro lines (trains go both ways; each track between two stations next to each o
 | MC3 | B | After two enqueues: `A, B`. Dequeue removes the front (A): `B`. Enqueue C at the rear: `B, C`. A forgets the dequeue. C has the order reversed. D removes from the wrong end (that would be a stack). |
 | MC4 | B | 30 < 45, go left to 20. 30 > 20, go right: empty, so 30 is the right child of 20. A stops after the first comparison. D compares wrongly with 45 (30 is smaller, not bigger). C would need 30 > 45. |
 | MC5 | C | 70 > 55, go right to 80. 70 < 80, go left to 65. 70 > 65, go right: empty. 3 checks. B stops at 80 without checking 65. D counts every number (linear search). A only checks the root. |
-| MC6 | A and C | A: count the edges: 7. C: A, B, D, C, back to A is a loop (cycle). B is false: no edge joins A and F (the fewest stops between them is 3). D is false: a tree has no loops. |
+| MC6 | A and C | A: count the edges: 7. C: A, B, D, C, back to A is a cycle. B is false: no edge joins A and F (the fewest stops between them is 3). D is false: a tree has no cycles. |
 | MC7 | A | 1 stop from School: Hospital and Market. From Hospital you reach Bank, from Market you reach Park and Theatre: all 2 stops. B is the 1-stop ring. C (Library, Zoo) is 3 stops. D mixes 2 and 3 stops. |
 
 ### Open-ended: expected key points
