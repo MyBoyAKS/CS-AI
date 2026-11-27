@@ -1,7 +1,7 @@
 # 0. Module Outline: Algorithms, Data Structures & Connectionist AI
 
 > **Part:** 00 Overview · **Author:** Amadeus Kenzie Solihin · **Reviewer:** Antony Wijaya (Content lead)
-> **Version:** V1.0 (Stage 1, October 2026)
+> **Version:** V3.0 draft (Stage 3, November 2026)
 > **Coverage based on:** course slides *Chap 3 Software & Algorithms* and *Chap 5 Connectionist AI & Big Data* (Foundations of CS & AI, 2024)
 
 ---
@@ -73,32 +73,32 @@ After the whole module, a beginner should be able to:
 
 | Chapter | What it covers | Planned example / activity | Owner | Status |
 |---|---|---|---|---|
-| 1.1 What is an algorithm? | Definition, history (al-Khwarizmi, Euclid), key properties, algorithm vs program | Find-max trace, Euclid's GCD trace, "is this an algorithm?" questions | Derren | 📝 drafted, activity being added |
-| 1.2 Representing algorithms | Natural language, pseudocode, flowcharts | Draw a flowchart for a morning routine | Derren | 🔲 |
-| 1.3 Searching ⭐ | Linear search, binary search, why binary search needs a sorted list, counting checks | 4 traced examples, "guessing game" activity, 8 questions with answers | Nicholas | 📝 drafted, examples verified, review pending |
-| 1.4 Sorting | Bubble, selection, insertion sort; comparing step counts | Sort 5 playing cards by hand with each method | Derren | 🔲 |
-| 1.5 Iteration vs recursion | Loops vs a function calling itself | Countdown and factorial traced both ways | Derren | 🔲 |
+| 1.1 What is an algorithm? | Definition, history (al-Khwarizmi, Euclid), key properties, algorithm vs program | Find-max trace, Euclid's GCD trace, "is this an algorithm?" questions | Derren | ✅ checked (Stage 2) |
+| 1.2 Representing algorithms | Natural language, pseudocode, flowcharts | Draw a flowchart for a morning routine | Derren | ✅ checked (Stage 2) |
+| 1.3 Searching ⭐ | Linear search, binary search, why binary search needs a sorted list, counting checks | 4 traced examples, "guessing game" activity, 8 questions with answers | Nicholas | ✅ checked (Stage 2) |
+| 1.4 Sorting | Bubble, selection, insertion sort; comparing step counts | Sort 5 playing cards by hand with each method | Derren | ✅ checked (Stage 2) |
+| 1.5 Iteration vs recursion | Loops vs a function calling itself | Countdown and factorial traced both ways | Derren | ✅ checked (Stage 2) |
 
 ### Part 2: Data structures
 
 | Chapter | What it covers | Planned example / activity | Owner | Status |
 |---|---|---|---|---|
-| 2.1 Arrays and records | Index access, fixed size, records with fields | A class list as an array of student records | Antony | 🔲 |
-| 2.2 Linked lists | Nodes and pointers, inserting without shifting | Human chain: students hold the "next" pointer | Antony | 🔲 |
-| 2.3 Stacks and queues | LIFO, FIFO, push/pop, enqueue/dequeue, choosing between them | 2 traced examples, operation-tracing activity with answers | Antony | 📝 drafted |
-| 2.4 Trees and binary trees | Root, parent, child, leaf; binary search tree | Build a BST from 5 numbers | Nicholas | 🔲 |
-| 2.5 Graphs | Nodes and edges, maps and networks, BFS idea | Find the fewest stops on a small metro map | Nicholas | 🔲 |
+| 2.1 Arrays and records | Index access, fixed size, records with fields | A class list as an array of student records | Antony | ✅ checked (Stage 2) |
+| 2.2 Linked lists | Nodes and pointers, inserting without shifting | Human chain: students hold the "next" pointer | Antony | ✅ checked (Stage 2) |
+| 2.3 Stacks and queues | LIFO, FIFO, push/pop, enqueue/dequeue, choosing between them | 2 traced examples, operation-tracing activity with answers | Antony | ✅ checked (Stage 2) |
+| 2.4 Trees and binary trees | Root, parent, child, leaf; binary search tree | Build a BST from 5 numbers | Nicholas | ✅ checked (Stage 2) |
+| 2.5 Graphs | Nodes and edges, maps and networks, BFS idea | Find the fewest stops on a small metro map | Nicholas | ✅ checked (Stage 2) |
 
 ### Part 3: Connectionist AI
 
 | Chapter | What it covers | Planned example / activity | Owner | Status |
 |---|---|---|---|---|
-| 3.1 Connectionist vs symbolic AI | Rules written by people vs patterns learned from data | Spam filter: hand-written rules vs learned from examples | Kenzie | 🔲 |
+| 3.1 Connectionist vs symbolic AI | Rules written by people vs patterns learned from data | Spam filter: hand-written rules vs learned from examples | Kenzie | ✅ checked (Stage 2) |
 | 3.2 The perceptron | Inputs, weights, bias, weighted sum, activation | Compute a neuron that decides "go outside?" from weather inputs | Cristo | ✅ checked |
-| 3.3 How networks learn | Training data, error (loss), adjusting weights, training vs inference | Adjust one weight by hand to reduce the error | Kenzie | 🔲 |
-| 3.4 Network architectures and deep learning | Layers (input, hidden, output), feedforward; brief look at CNN, RNN; many layers, image recognition, speech, translation, chatbots | Label the layers in a diagram; match applications to the input data they use | Kenzie | 🔲 |
-| 3.5 Deep learning and applications | Merged into chapter 3.4 | See 3.4 | Kenzie | Merged into 3.4 |
-| 3.6 Ethics and challenges | Bias in data, privacy, explainability ("black box") | Discuss: who is responsible when a model is wrong? | Kenzie | 🔲 |
+| 3.3 How networks learn | Training data, error (loss), adjusting weights, training vs inference | Adjust one weight by hand to reduce the error | Kenzie | ✅ checked (Stage 2) |
+| 3.4 Network architectures and deep learning | Layers (input, hidden, output), feedforward, CNN, RNN, transformer, deep learning | Label the layers in a diagram; match applications to the input data they use | Kenzie | ✅ checked (Stage 2) |
+| 3.5 Key applications | Applications by data type, from problem to application, accuracy, misses and false alarms | Application card, count misses and false alarms, optional Teachable Machine test | Kenzie | 📝 drafted in Stage 3, review pending |
+| 3.6 Ethics and challenges | Bias in data, privacy, explainability ("black box") | Discuss: who is responsible when a model is wrong? | Kenzie | ✅ checked (Stage 2) |
 
 ---
 
@@ -114,17 +114,17 @@ After the whole module, a beginner should be able to:
 
 ---
 
-## Development status (V1.0 snapshot)
+## Development status
 
 | Status | Chapters |
 |---|---|
-| ✅ Checked by a reviewer | 1.1, 1.3, 2.3, 3.2 |
-| 🔲 Outline only | 1.2, 1.4, 1.5, 2.1, 2.2, 2.4, 2.5, 3.1, 3.3, 3.4, 3.5, 3.6 |
+| ✅ Checked by a reviewer in Stage 2 | 1.1 to 1.5, 2.1 to 2.5, 3.1 to 3.4, 3.6 |
+| 📝 New or changed in Stage 3, review pending | 3.5 (new chapter), pictures and diagrams in 1.1 to 1.5, 2.1 to 2.3, 2.5, 3.1 to 3.4, 3.6 |
 
 ## Known gaps and uncertainties
 
-- **Depth of Part 3:** the course slides list deep learning architectures (CNN, RNN). We plan only a short, non-mathematical introduction for beginners. To confirm with the teacher.
-- **Big Data:** the Chap 5 slides pair Connectionist AI with Big Data. Our module title does not include Big Data, so we treat it only as context (why neural networks need lots of data). To confirm.
+- **Depth of Part 3:** CNN, RNN and transformer are introduced without mathematics, in line with the beginner audience.
+- **Big Data:** the Chap 5 slides pair Connectionist AI with Big Data. Our module title does not include Big Data, so it appears only as context (why networks need many examples).
 - **Code:** code examples are optional extras. Learners are not expected to program.
 - **Owners:** chapter owners match the Stage 2 [task list](../plan/master_task_list.md).
 - **Consistent terms:** all chapters use the same definition: *an algorithm is a finite, step-by-step set of clear instructions that solves a problem or completes a task.*
