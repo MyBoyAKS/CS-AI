@@ -74,6 +74,6 @@ Status labels: ✅ checked by a reviewer · 📝 drafted · 🔲 outline only
 
 | | |
 |---|---|
-| **Version** | Final V3.0, in preparation (Stage 3, November 2026) |
+| **Version** | Final V3.0 (Stage 3, 28 November 2026). This is the version submitted for assessment. |
 | **Not in this repository** | Study Guide, slides and videos. They are submitted separately on Lexue. |
 | **Known limits** | Big Data is only context. Mathematics of backpropagation is not covered. Online labs need internet, each has a paper fallback. |
