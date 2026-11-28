@@ -97,7 +97,7 @@ After the whole module, a beginner should be able to:
 | 3.2 The perceptron | Inputs, weights, bias, weighted sum, activation | Compute a neuron that decides "go outside?" from weather inputs | Cristo | ✅ checked |
 | 3.3 How networks learn | Training data, error (loss), adjusting weights, training vs inference | Adjust one weight by hand to reduce the error | Kenzie | ✅ checked (Stage 2) |
 | 3.4 Network architectures and deep learning | Layers (input, hidden, output), feedforward, CNN, RNN, transformer, deep learning | Label the layers in a diagram; match applications to the input data they use | Kenzie | ✅ checked (Stage 2) |
-| 3.5 Key applications | Applications by data type, from problem to application, accuracy, misses and false alarms | Application card, count misses and false alarms, optional Teachable Machine test | Kenzie | 📝 drafted in Stage 3, review pending |
+| 3.5 Key applications | Applications by data type, from problem to application, accuracy, misses and false alarms | Application card, count misses and false alarms, optional Teachable Machine test | Kenzie | ✅ checked (Stage 3, PR #44) |
 | 3.6 Ethics and challenges | Bias in data, privacy, explainability ("black box") | Discuss: who is responsible when a model is wrong? | Kenzie | ✅ checked (Stage 2) |
 
 ---
@@ -119,7 +119,7 @@ After the whole module, a beginner should be able to:
 | Status | Chapters |
 |---|---|
 | ✅ Checked by a reviewer in Stage 2 | 1.1 to 1.5, 2.1 to 2.5, 3.1 to 3.4, 3.6 |
-| 📝 New or changed in Stage 3, review pending | 3.5 (new chapter), pictures and diagrams in 1.1 to 1.5, 2.1 to 2.3, 2.5, 3.1 to 3.4, 3.6 |
+| ✅ New or changed in Stage 3, reviewed in pull requests #38 to #53 | 3.5 (new chapter), pictures and diagrams in 1.1 to 1.5, 2.1 to 2.3, 2.5, 3.1 to 3.4, 3.6 |
 
 ## Known gaps and uncertainties
 
